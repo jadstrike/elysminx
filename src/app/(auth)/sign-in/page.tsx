@@ -76,6 +76,9 @@ const Page = () => {
         <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
           <div className="flex flex-col items-center space-y-2 text-center">
             <Rocket className="h-12 w-12 text-red-400" />
+            <p className=" font-light">
+              Elysminx Digital Marketplace Platform to the moon
+            </p>
             <h1 className="text-2xl font-semibold tracking-tight">
               Sign in to your {isSeller ? "seller" : ""} account
             </h1>

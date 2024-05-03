@@ -1,7 +1,7 @@
 export const PRODUCT_CATEGORIES = [
   {
     label: "Gift Cards",
-    value: "gift_cards" as const,
+    value: "ui_kits" as const,
     featured: [
       {
         name: "Editor picks",
