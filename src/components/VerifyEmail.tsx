@@ -5,7 +5,6 @@ import { Loader2, XCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
-import logo from "../../public/thumbnail.jpg";
 
 interface VerifyEmailProps {
   token: string;
@@ -32,7 +31,11 @@ const VerifyEmail = ({ token }: VerifyEmailProps) => {
     return (
       <div className="flex h-full flex-col items-center justify-center">
         <div className="relative mb-4 h-60 w-60 text-muted-foreground">
-          <Image src={logo} fill alt="the email was sent" />
+          <Image
+            src="../../public/thumbnail.jpg"
+            fill
+            alt="the email was sent"
+          />
         </div>
 
         <h3 className="font-semibold text-2xl">You&apos;re all set!</h3>
